@@ -62,7 +62,7 @@ class LogoService
      * @param string $type
      * @return string
      */
-    public function getLogo(string $type, string $filename = "Healthcare.*"): string
+    public function getLogo(string $type, string $filename = "logo.*"): string
     {
         $siteDir = "{$GLOBALS['OE_SITE_DIR']}/images/logos/{$type}/";
         $publicDir = "{$GLOBALS['images_static_absolute']}/logos/{$type}/";
